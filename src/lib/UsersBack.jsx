@@ -38,7 +38,6 @@ class UsersBack {
      * @returns []
      */
     static get(userType) {
-
         let usersList = Cookie.getArrayCookie(this.#cookieName);
         if (usersList.length == 0 || this.#refreshCookies()) {
             // if user list not found in cookies get it from API and 

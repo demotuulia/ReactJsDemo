@@ -15,7 +15,7 @@ import Select from '/src/components/Helpers/Select/Select.jsx';
 
 function Cards(props) {
 
-        let userType = 'all';
+        const [userType, setUserType] =  useState('all');
         const [showAddButton, setShowAddButton] = useState(true);
         const [users, setUsers] = useState(new Users().get(userType));
 
@@ -135,8 +135,8 @@ function Cards(props) {
          * 
          */
         const handleSelectChange = (value) => {
-                userType = value;
-                setUsers(new Users().get(userType));
+                setUserType(value);
+                setUsers(new Users().get(value));
         };
 
         return (
