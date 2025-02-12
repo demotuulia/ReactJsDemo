@@ -1,0 +1,17 @@
+.succesBox, .errorBox {
+    border-radius: 10px;
+    margin: 0px;
+    margin-top: 5px;
+}
+
+.succesBox {
+    background-color: rgb(145, 187, 132);
+    color: black;
+    list-style: none;
+}
+
+
+.errorBox {
+    background-color:rgb(221, 141, 197);
+    color: black
+}

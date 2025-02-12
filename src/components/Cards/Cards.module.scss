@@ -1,0 +1,124 @@
+@import '/src/style/theme.scss';
+
+
+.topWrapper {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+.cardsWrapper {
+    width: 100%;   
+    text-align: center;
+    margin: auto;
+    width: 80%;
+   
+}
+.cardsWrapperInner {
+    padding: 10px;
+    margin: auto;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .topWrapper,
+    .cardsWrapper,
+    .cardsWrapperInner {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .topWrapper {
+        background-color: aqua;
+        width: 100%;
+    }
+}
+
+.clear {
+    clear: both;
+    height: 1px;
+    overflow: hidden;
+}
+
+
+.addButton,
+.addButton:hover {
+    float: left;
+    border: none;
+    height: 1.5em;
+    margin: 0px;
+    margin-top: 0.3em;
+    padding: 0em;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+}
+
+@media only screen and (max-width: 550px) {
+    .addButton{
+        float: right;
+        margin-right: 0px;
+    }
+}
+
+.addButton {
+    background-color: $primary-color;
+}
+
+.addButton:hover {
+    background-color: $primary-color3;
+}
+
+.addButtonHidden {
+    display: none;
+}
+
+
+.userType {
+    font-size: 1em;
+    float: left;
+    width: 80%;
+    
+    padding: 0.4em;
+    padding-left: 1em;
+    border-radius: 5px;
+}
+
+.userTypeText {
+    float: left;
+    padding: 0px;
+    margin-right: 0.5em;
+}
+
+
+.select {
+    z-index: 1000;
+    background-color: $primary-color;
+    color:  $text-color;
+    width: 10em;
+    float: left;
+    border: none;
+    border-radius: 0.4em;
+    margin: 0px;
+    padding: 0em;
+    padding-left: 5px;
+    height: 1.5em;
+}
+@media only screen and (max-width: 900px) {
+    .userTypeText {
+        margin: 0px;
+        padding: 0px;
+        margin-bottom: 0.4em;
+    }
+    .select {
+        margin: 0px;
+        padding: 0px;
+    };
+}
+
+.select option {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 5px;
+    z-index: 1000;
+    background-color: $primary-color;
+    color:  $text-color;
+}

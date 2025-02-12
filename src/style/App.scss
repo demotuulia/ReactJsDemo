@@ -1,0 +1,20 @@
+@import '/src/style/theme.scss';
+
+
+
+body {
+    background-color:  $primary-color;
+    color: $text-color;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+
+  .mainContent {
+    background-color: $primary-color2;
+    margin: 0px;
+    padding: 0px;
+  }
+  

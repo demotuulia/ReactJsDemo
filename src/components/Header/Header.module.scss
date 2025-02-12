@@ -1,0 +1,94 @@
+@import '/src/style/theme.scss';
+
+.navBar {
+    background-color: $primary-color3;
+    margin: 0px;;
+    width: 100%;
+    overflow: hidden;
+}
+
+.navBarBrand {
+    opacity: 1;
+    border-radius: 1em;
+    margin: 0px;
+    margin-left: 0.2em;
+    padding: 0px;
+    padding-right: 0.5em;
+    color:$react-js-color;
+    font-weight: bold;
+    min-width: 14em;
+    overflow: hidden;
+}
+
+.navBarCollapse {
+    background-color: $primary-color2;
+    opacity: .9; 
+    margin: 0px;
+    padding: 0px;
+    margin-left: 1em;
+    margin-right: 55em;
+    border-radius: 1em;    
+    z-index: 1000;
+}
+
+@media only screen and (max-width: 900px) {
+    .navBarCollapse {
+        margin-top: 0.2em;
+        opacity: 1;
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+  }
+
+.navDropdown {
+    margin: 0px;
+    padding: 0px;
+    width: 9em;   
+}
+
+.navBarDropDownTitle {
+    margin: 0px;
+    padding: 0px;
+    height: 30px;
+    color: $text-color;
+    width: 5em;
+}
+
+  @media only screen and (min-width: 901px) {
+    .navBarCollapse {
+        height: 3em;
+    }
+  }
+
+.navLink{
+    color: $text-color;
+    margin: 0px;
+    margin-left: 0.4em;
+    padding: 0px;
+    padding-top: 0.1em;
+}
+
+@media only screen and (max-width: 1000px) {
+    .navLink{
+       height: 2.4em;
+       padding-top: 0.5em;
+       padding-left: 0.5em;
+    }
+  }
+
+
+.logo {
+    width: 5em;
+    margin-left:0.5em;
+    margin-right:0.5em;
+    margin-top:0.8em;
+    margin-bottom:0.5em;
+    border-radius: 1em;
+}
+
+
+.hamburger {
+    background-color: $react-js-color;
+    margin-right: 5px;
+    border: none;
+}

@@ -1,0 +1,11 @@
+@import '/src/style/theme.scss';
+
+.footer{
+    margin: 0px;
+    margin-top: 1em;
+    padding: 0.5em;
+    padding-top: 1em;
+    background-color: $primary-color3;
+    font-size: 0.8em;
+    color: $primary-color2;
+}
