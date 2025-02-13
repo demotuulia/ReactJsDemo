@@ -19,7 +19,6 @@ Important files and folders  :
 | File/folder |  | 
 | :--- | :--- | 
 | src/App.jsx | The routing configuration  |
-| src/pages/Layout | The Layout, used by the routing  |
 | src/assets | ssests as in standard React, now including some images |
 | src/components | React components including the styles in separate files. The components might have sub components in sub folders of the component. |
 | src/components/Helpers | Some components, which are used by several components |
